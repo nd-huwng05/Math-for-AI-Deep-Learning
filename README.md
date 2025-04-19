@@ -116,3 +116,19 @@ This guide helps you **truly understand** the mathematical foundations behind mo
   - Training Deep Nets, CNNs, Autoencoders, GANs
 - **Suggested Chapters**: 2–4, 6, 8–9, 18, 20
 
+---
+
+## ✅ Summary Table
+
+| Topic               | Book                          | Chapters to Read     |
+|--------------------|-------------------------------|----------------------|
+| Calculus           | Stewart / Thomas              | 2–4, 9, 14–15        |
+| Linear Algebra     | Strang                        | 1–3, 5–7             |
+| Probability        | Blitzstein / Ross             | 1–7, 12              |
+| Statistics         | Casella / Wasserman           | 5–7, 10 / 1–6, 18–20 |
+| Optimization       | Boyd                          | 2–5                  |
+| Information Theory | Cover & Thomas                | 2–3, 8               |
+| Real Analysis      | Abbott                        | 1–6                  |
+| ML Foundations     | Math for ML (MML book)        | 2, 3, 5–8            |
+| ML Theory          | Bishop                        | 1–3, 5, 9            |
+| Deep Learning      | Goodfellow et al.             | 2–4, 6, 8–9, 18, 20  |
