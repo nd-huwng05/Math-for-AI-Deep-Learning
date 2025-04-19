@@ -1,140 +1,118 @@
-🧮 1. Core Math Foundations (Essential, Even If Basic)
-✅ Calculus
-📘 Recommended books:
+# 📚 Math Roadmap for Understanding ML/DL Research Papers
 
-Calculus – James Stewart
-Thomas' Calculus – George B. Thomas
-🎯 Goals: Understand derivatives, partial derivatives, gradients, Taylor series, basic integration.
+This guide helps you **truly understand** the mathematical foundations behind modern ML/DL papers — not just how to solve problems, but why things work. Ideal for those who have experience solving calculus, linear algebra, and statistics problems, but want to go deeper.
 
-🔍 Focus on:
-Ch. 2: Limits and Derivatives
-Ch. 3: Differentiation Rules
-Ch. 4: Applications of Derivatives (optimization, curve sketching)
-Ch. 9: Sequences and Series (for Taylor expansions)
-Ch. 14–15: Partial Derivatives and Multivariable Calculus (for gradients, Hessians)
+---
 
-🛠 Practice: Implement gradient descent manually and understand chain rule used in backpropagation.
+## 🧮 1. Core Math Foundations (Essential)
 
-✅ Linear Algebra
-📗 Recommended books:
+### 📘 Calculus
+- **Books**:
+  - *Calculus* – James Stewart
+  - *Thomas' Calculus* – George B. Thomas
+- **What to focus on**:
+  - Limits & Derivatives
+  - Chain Rule, Gradients, Partial Derivatives
+  - Optimization via Derivatives
+  - Taylor Expansion
+- **Suggested Chapters**: 2–4, 9, 14–15
 
-Introduction to Linear Algebra – Gilbert Strang
-Linear Algebra and Its Applications – Gilbert Strang
-🎯 Goals: Understand vector spaces, matrices, linear transformations, eigenvalues/eigenvectors, and SVD.
+---
 
-🔍 Focus on:
-Ch. 1: Vectors and Linear Equations
-Ch. 2: Matrix Algebra
-Ch. 3: Solving Ax = b
-Ch. 5: Eigenvalues and Eigenvectors
-Ch. 6: Positive Definite Matrices
-Ch. 7: Singular Value Decomposition (SVD)
+### 📗 Linear Algebra
+- **Books**:
+  - *Introduction to Linear Algebra* – Gilbert Strang
+  - *Linear Algebra and Its Applications* – Gilbert Strang
+- **Key Topics**:
+  - Vectors, Matrices, Linear Transformations
+  - Eigenvalues & Eigenvectors
+  - Singular Value Decomposition (SVD)
+- **Suggested Chapters**: 1–3, 5–7
 
-🛠 Practice: Derive PCA manually using SVD.
+---
 
-✅ Probability & Statistics
-📘 Recommended books:
+### 🎲 Probability & Statistics
+- **Books**:
+  - *Introduction to Probability* – Blitzstein & Hwang
+  - *A First Course in Probability* – Sheldon Ross
+- **Key Topics**:
+  - Bayes' Theorem, Conditional Probability
+  - Random Variables, Expectation
+  - Distributions: Bernoulli, Binomial, Normal, etc.
+  - Law of Large Numbers, Central Limit Theorem
+- **Suggested Chapters**: 1–7, 12
 
-Introduction to Probability – Blitzstein & Hwang
-A First Course in Probability – Sheldon Ross
+---
 
-🎯 Goals: Master probability theory, expectations, Bayes’ theorem, common distributions.
+## 🧠 2. Advanced Math for Research
 
-🔍 Focus on:
-Ch. 1–3: Basic Probability and Counting
-Ch. 4: Conditional Probability and Bayes’ Theorem
-Ch. 5–6: Random Variables and Expectation
-Ch. 12: Law of Large Numbers, Central Limit Theorem
+### 📘 Mathematical Statistics
+- **Books**:
+  - *Statistical Inference* – Casella & Berger
+  - *All of Statistics* – Larry Wasserman
+- **Key Topics**:
+  - Estimation (MLE, MAP), Confidence Intervals
+  - Bayesian Inference, Hypothesis Testing
+- **Suggested Chapters**:
+  - Casella: 5–7, 10
+  - Wasserman: 1–6, 8–11, 18–20
 
-🛠 Practice: Derive and interpret loss functions like cross-entropy, MLE, and KL-divergence.
+---
 
-🧠 2. Advanced Math for Research & ML
-✅ Mathematical Statistics
-📘 Recommended books:
+### 🧩 Convex Optimization
+- **Book**: *Convex Optimization* – Stephen Boyd & Lieven Vandenberghe
+- **Key Topics**:
+  - Convex Sets & Functions
+  - Duality Theory
+  - Gradient-Based Optimization
+- **Suggested Chapters**: 2–5
 
-Statistical Inference – Casella & Berger
-All of Statistics – Larry Wasserman
-🎯 Goals: Deep understanding of statistical estimation, inference, and Bayesian thinking.
+---
 
-🔍 Casella & Berger (detailed):
-Ch. 5: Point Estimation
-Ch. 6: Methods of Estimation (MLE, MOM)
-Ch. 7: Hypothesis Testing
-Ch. 10: Bayesian Inference
+### 🧠 Information Theory
+- **Book**: *Elements of Information Theory* – Cover & Thomas
+- **Key Topics**:
+  - Entropy, KL-Divergence, Mutual Information
+  - Applications in VAE, GANs, RL
+- **Suggested Chapters**: 2–3, 8
 
-🔍 Wasserman (broad & ML-oriented):
-Ch. 1–6: Probability and Distributions
-Ch. 8–11: Estimation & Hypothesis Testing
-Ch. 18–20: Bayesian Methods, Model Selection
+---
 
-✅ Convex Optimization
-📗 Convex Optimization – Boyd & Vandenberghe
+### 📐 Real Analysis (for Proofs & Convergence)
+- **Books**:
+  - *Understanding Analysis* – Stephen Abbott *(easier)*
+  - *Principles of Mathematical Analysis* – Walter Rudin *(rigorous)*
+- **Key Topics**:
+  - Limits, Continuity, Sequences
+  - Proof-based Thinking, Convergence
+- **Suggested Chapters (Abbott)**: 1–6
 
-🎯 Goals: Understand loss minimization, convexity, duality, and optimization techniques used in ML/DL.
+---
 
-🔍 Focus on:
-Ch. 2: Convex Sets
-Ch. 3: Convex Functions
-Ch. 4: Convex Optimization Problems
-Ch. 5: Duality Theory
+## 🤖 3. Math for ML & Deep Learning
 
-🛠 Practice: Implement L2-regularized logistic regression with gradients.
+### 📘 Mathematics for Machine Learning *(FREE)*  
+🔗 [https://mml-book.github.io/](https://mml-book.github.io/)
+- **Key Topics**:
+  - Linear Algebra for ML
+  - Geometry, Probability, Optimization
+  - Regression, PCA
+- **Suggested Chapters**: 2, 3, 5–8
 
-✅ Information Theory
-📘 Elements of Information Theory – Cover & Thomas
+---
 
-🎯 Goals: Understand entropy, KL-divergence, mutual information, useful in VAE, attention, RL.
+### 📗 Pattern Recognition and Machine Learning – Bishop
+- **Key Topics**:
+  - Probabilistic Models
+  - Neural Networks
+  - EM Algorithm, Mixture Models
+- **Suggested Chapters**: 1–3, 5, 9
 
-🔍 Focus on:
-Ch. 2: Entropy and Mutual Information
-Ch. 3: KL Divergence, Joint Distributions
-Ch. 8–9: Source Coding & Channel Capacity (optional)
+---
 
-✅ Real Analysis
-📙 Recommended books:
+### 📙 Deep Learning – Goodfellow, Bengio, Courville
+- **Key Topics**:
+  - Linear Algebra, Probability, Optimization
+  - Training Deep Nets, CNNs, Autoencoders, GANs
+- **Suggested Chapters**: 2–4, 6, 8–9, 18, 20
 
-Understanding Analysis – Stephen Abbott (beginner-friendly)
-Principles of Mathematical Analysis – Walter Rudin (rigorous)
-🎯 Goals: Understand mathematical rigor, convergence, limits—useful for learning proofs and convergence in algorithms.
-
-🔍 Abbott – easier to start with:
-Ch. 1: Real Numbers
-Ch. 2: Limits
-Ch. 3: Continuity
-Ch. 4: Differentiation
-Ch. 5–6: Sequences and Functions
-
-🤖 3. Applied Math for ML / DL
-✅ Mathematics for Machine Learning
-📘 Deisenroth, Faisal, Ong – FREE online
-
-🎯 Goals: Bridge core math to actual ML problems.
-
-🔍 Focus on:
-Ch. 2: Linear Algebra
-Ch. 3: Analytic Geometry
-Ch. 5: Probability
-Ch. 6: Optimization
-Ch. 7: Linear Regression
-Ch. 8: PCA
-
-✅ Pattern Recognition and Machine Learning – Bishop
-🎯 Goals: Learn probabilistic ML, Gaussian models, EM, neural networks.
-
-🔍 Focus on:
-Ch. 1–2: Probability Distributions & Inference
-Ch. 3: Linear Models
-Ch. 5: Neural Networks
-Ch. 8: Graphical Models
-Ch. 9: Mixture Models & EM Algorithm
-✅ Deep Learning – Ian Goodfellow, Bengio, Courville
-🎯 Goals: Deepen understanding of DL techniques with mathematical foundations.
-
-🔍 Focus on:
-Ch. 2: Linear Algebra
-Ch. 3: Probability & Information Theory
-Ch. 4: Numerical Computation
-Ch. 6: Optimization for Training DL
-Ch. 8–9: CNNs, RNNs
-Ch. 18: Autoencoders
-Ch. 20: GANs
